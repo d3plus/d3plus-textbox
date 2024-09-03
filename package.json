@@ -34,7 +34,8 @@
     "docs": "d3plus-docs",
     "env": "d3plus-env",
     "release": "d3plus-release",
-    "test": "eslint src test && mocha 'test/**/*-test.js'"
+    "test": "eslint src test && mocha 'test/**/*-test.js'",
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "d3plus-dev": "^1.2.9"
